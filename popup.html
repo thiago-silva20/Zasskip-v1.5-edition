@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Ad Skipper Pro</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="tuff-container">
+        <div class="tuff-header">
+            <div class="logo-shield">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 2ZM11 16.5L6.5 12L7.91 10.59L11 13.67L16.59 8.09L18 9.5L11 16.5Z" fill="#d4af37"/>
+                </svg>
+            </div>
+            <h1>AD SKIPPER</h1>
+        </div>
+
+        <div class="tuff-control">
+            <span class="label">ESTADO DEL MOTOR</span>
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="tuff-theme-selector">
+            <span class="label">TEMA DEL REPRODUCTOR</span>
+            <div class="theme-options">
+                <div class="theme-btn gold" data-color="#d4af37" title="Dorado Pulido"></div>
+                <div class="theme-btn silver" data-color="#e0e0e0" title="Plateado Metálico"></div>
+                <div class="theme-btn black" data-color="#555555" title="Negro Carbono"></div>
+                <div class="theme-btn red" data-color="#ff0000" title="Rojo Clásico"></div>
+            </div>
+        </div>
+
+        <div class="tuff-stats">
+            <p class="stats-title">AMENAZAS DESTRUIDAS</p>
+            <p class="stats-count" id="adsCount">0</p>
+        </div>
+        
+        <div class="tuff-footer">
+            <span>EDICIÓN TUFF // V3.5</span>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

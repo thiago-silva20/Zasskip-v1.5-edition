@@ -1,0 +1,39 @@
+/**
+ * styles.css
+ * Bloqueo visual estricto de elementos patrocinados, paneles de anuncios y Sponsored Shorts.
+ * (El color del reproductor ahora es dinámico y se inyecta desde content.js)
+ */
+
+/* Homepage feed ads */
+#masthead-ad,
+ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+ytd-rich-item-renderer:has(.ytd-in-feed-ad-layout-renderer),
+
+/* Sidebar companion ads */
+#player-ads,
+ytd-companion-slot-renderer,
+
+/* Video overlay and interstitial ads */
+.ytp-ad-overlay-container,
+.ytp-ad-message-container,
+.ytp-ad-action-interstitial-background-container,
+.ad-container,
+
+/* General promoted / ad slot renderers / Sponsored blocks */
+ytd-ad-slot-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-search-pyv-renderer,
+.ytd-in-feed-ad-layout-renderer,
+ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"],
+
+/* Sponsored Shorts Blockers */
+ytd-reel-video-renderer:has(ytd-ad-slot-renderer),
+ytd-reel-video-renderer:has([is-ad]),
+ytd-reel-video-renderer:has(.ytd-ad-slot-renderer),
+/* Detect "Sponsored" tags within shorts or feed items */
+ytd-rich-item-renderer:has([aria-label*="Sponsored"]),
+ytd-rich-item-renderer:has([aria-label*="Patrocinado"]),
+ytd-reel-video-renderer:has([aria-label*="Sponsored"]),
+ytd-reel-video-renderer:has([aria-label*="Patrocinado"]) {
+    display: none !important;
+}
