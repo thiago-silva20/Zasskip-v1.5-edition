@@ -1,5 +1,12 @@
 # 🚀 Zasskip - Premium Edition (v1.5)
 
+## Languages / Idiomas / Langues
+* [English](#-zasskip---premium-edition-v15)
+* [Spanish](#read-this-in-spanish)
+* [French](#read-this-in-french)
+
+---
+
 A high-performance Google Chrome extension built entirely on the modern **Manifest V3** architecture. This project completely optimizes your video streaming experience by eliminating interruptions and adding an advanced, real-time aesthetic customization layer.
 
 ---
@@ -37,7 +44,7 @@ Since this is a custom portfolio project, you can easily load it locally on your
 
 ## Read this in Spanish
 
-# 🚀 Zasskip - Edición Premium (v3.5)
+# 🚀 Zasskip - Edición Premium (v1.5)
 
 Una extensión de Google Chrome de alto rendimiento diseñada bajo el estándar **Manifest V3**. Este proyecto optimiza por completo la experiencia de reproducción de video al eliminar interrupciones y añadir una capa avanzada de personalización estética en tiempo real.
 
@@ -76,7 +83,7 @@ Dado que es un proyecto de portafolio y desarrollo propio, puedes instalarlo loc
 
 ## Read this in French
 
-# 🚀 Zasskip - Édition Premium (v3.5)
+# 🚀 Zasskip - Édition Premium (v1.5)
 
 Une extension Google Chrome haute performance entièrement conçue sous le standard **Manifest V3**. Ce projet optimise complètement l'expérience de lecture vidéo en éliminant les interruptions et en ajoutant une couche avancée de personnalisation esthétique en temps réel.
 
