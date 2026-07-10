@@ -1,4 +1,4 @@
-# 🚀 Zasskip - Premium Edition (v3.5)
+# 🚀 Zasskip - Premium Edition (v1.5)
 
 A high-performance Google Chrome extension built entirely on the modern **Manifest V3** architecture. This project completely optimizes your video streaming experience by eliminating interruptions and adding an advanced, real-time aesthetic customization layer.
 
